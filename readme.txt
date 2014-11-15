@@ -1,0 +1,17 @@
+To run this application, start your mongo server & do the following from the command line:
+bower install
+npm install
+nodemon server.js
+
+
+
+on in file user.js it's first encrypting the text and then saving it in the db. 
+
+You can search for followign lines of code 
+
+
+  userData.salt = encrypt.createSalt();
+  userData.hashed_pwd = encrypt.hashPwd(userData.salt, userData.password);
+
+
+
