@@ -3,9 +3,14 @@ bower install
 npm install
 nodemon server.js
 
+ you also need to have mongodb running on your mac. 
 
 
-on in file user.js it's first encrypting the text and then saving it in the db. 
+ only tested on mac. 
+
+
+
+on file server/controllers/user.js     it's first encrypting the text for password and then saving it in the db. 
 
 You can search for followign lines of code 
 
